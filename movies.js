@@ -9,4 +9,4 @@ document.querySelector("#pause").addEventListener("click", (e) => {
         video.pause();
         button.innerHTML = "play"
     }
-})
+});

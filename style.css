@@ -10,6 +10,11 @@ body {
     font-size: 17px;
 }
 
+#all-movies p {
+    margin: 0;
+    padding: 12px;
+}
+
 h1 {
     text-align: center;
     color: #00539F;
@@ -17,7 +22,7 @@ h1 {
     padding: 20px 0;
 }
 
-p {
+.content p {
     color: darkkhaki;
     width: 1000px;
     /* border: 1px solid black; */
@@ -94,4 +99,19 @@ p {
     float: left;
     font-size: 30px;
     font-weight: bold;
+}
+
+
+/* movies-list css */
+
+#search-movie {
+    float: right;
+    padding: 12px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.body-content {
+    background-color: darkkhaki;
 }
