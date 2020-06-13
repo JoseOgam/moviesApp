@@ -16,6 +16,9 @@ const moviesList = [{
 }, {
     title: "sofia the first",
     trailer: "Views"
+}, {
+    title: "Relic",
+    trailer: "Views"
 }, ];
 
 const filters = {
