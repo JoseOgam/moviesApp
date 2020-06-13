@@ -25,7 +25,7 @@ const filters = {
 const renderMovies = (moviesList, filters) => {
     var filteredMovie = moviesList.filter(function(list) {
         return list.title.toLowerCase().includes(filters.searchMovie.toLowerCase());
-    })
+    });
 
     document.querySelector("#all-movies").innerHTML = "";
 
@@ -42,8 +42,8 @@ document.querySelector("#input-search").addEventListener("input", (e) => {
     renderMovies(moviesList, filters);
 })
 
-moviesList.forEach((moviesList) => {
-    let p = document.createElement("p");
-    p.textContent = moviesList.title;
-    document.querySelector("#all-movies").appendChild(p);
-});
+// moviesList.forEach((moviesList) => {
+//     let p = document.createElement("p");
+//     p.textContent = moviesList.title;
+//     document.querySelector("#all-movies").appendChild(p);
+// });
